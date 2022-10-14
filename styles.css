@@ -1,0 +1,177 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* restablecer visualizacion de navegadores antiguos */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+@font-face {
+    font-family: fa;
+    src: url(ComicNeue-BoldItalic.ttf);
+ }
+
+/* scroll barra*/
+ ::-webkit-scrollbar{
+    background-color: rgb(197, 195, 195);
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #fafafa;
+    border-radius: 5px;
+}
+/*scroll barra*/
+
+
+#body{
+    
+    font-family: fa;
+    background-image: url(./nnnoise.svg)
+
+}
+
+.header-index{
+  
+     padding: 20px 0;
+ }
+ 
+ .titulo-uno{
+    width: 940px;
+    position: relative;
+    right: 255px; top: 18px;
+    margin: 0  auto;
+    text-align: center;
+    font-size: 50px;
+
+ }
+
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0px;
+    text-decoration: none;
+    
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 9px;
+    border-style: solid;
+    text-decoration: none;
+
+}
+
+nav a{
+    color: #ffffff;
+    font-size: 15px;
+    text-decoration: none;
+    display: inline;
+    text-align: center;
+    vertical-align: text-top;
+    padding: 8px 20px;
+    box-sizing: border-box;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    background-color: blue;
+
+    width: 190px;
+    height: 40px;
+    position: relative;
+    left: 350px; bottom: 75px;
+
+}
+
+.home{
+    background-color: green;
+}
+
+nav a:hover{
+    background-color: green;
+    
+}
+
+.imagen{
+   width: 60%;
+   height: 300px;
+   margin: auto;
+   display: block;
+}
+
+.seccion-evento{
+    text-align: center;
+    font-size: 35px;
+    padding: 2px;  
+    
+}
+
+.seccion-fechas{
+    position: relative;
+    top: 0px ; left: 600px;
+    border-style: solid;
+    font-size: 28px;
+    padding: 100px  10px ;
+
+}
+.texto{
+    
+    font-size: 15px;
+    position: relative;
+    left: 20px;
+    padding: 15px;
+}
+
+.logo{
+    width: 10%;
+    height: 150px;
+    margin: auto;
+    display: block;
+    float: left;
+    position: relative;
+    bottom: 350px; left: 370px;
+}
+
+
+
+
+
